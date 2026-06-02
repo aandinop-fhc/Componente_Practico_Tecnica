@@ -1,0 +1,51 @@
+/* ── Variables globales ─────────────────────────────────────────────────────── */
+:root {
+  --color-primario: #4f46e5;
+  --color-primario-dark: #3730a3;
+  --color-acento: #f59e0b;
+  --color-texto: #1e293b;
+  --color-texto-suave: #64748b;
+  --color-fondo: #f8fafc;
+  --color-blanco: #ffffff;
+  --color-borde: #e2e8f0;
+  --radio: 12px;
+  --sombra: 0 4px 24px rgba(0, 0, 0, 0.08);
+  --sombra-hover: 0 8px 32px rgba(79, 70, 229, 0.18);
+  --fuente-titulo: 'Sora', sans-serif;
+  --fuente-cuerpo: 'Inter', sans-serif;
+  --transicion: 0.25s ease;
+}
+
+/* ── Reset básico ────────────────────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--fuente-cuerpo);
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  font-family: var(--fuente-cuerpo);
+  border: none;
+  outline: none;
+}
